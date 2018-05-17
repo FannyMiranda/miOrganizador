@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-image: url("/Users/Fanny/Documents/dev/scrum/img/94b8d503ec57629843ab1ba98c50333811.gif");
+    background-repeat: no-repeat;
+    background-size: 1290px 870px;
+
+}
+
+
+header {
+    background: #6b6b6b;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    opacity: 0.7;
+    font-family:  'Indie Flower';
+    
+}
+
+.lists {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    border: 1px solid grey;
+    padding: 30px;
+    margin-bottom: 20px;
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.list {
+    width: 250px;
+    margin: 0 10px;
+    background: #6b6b6b;
+    padding: 20px;
+    opacity: 0.96;
+    
+}
+
+.taskItem {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+
+}
+
+
+.taskItem button {
+    margin-right: 10px;
+}
+
+input {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    outline-color: #cdbce8
+}
+h4 {
+    font-size: 20px;
+}
