@@ -1,3 +1,4 @@
+<!DOCTYPE>
 <html lang="en">
 
 <head>
@@ -17,7 +18,7 @@
                 <div class="list">
                     <div class="listHeader">
                     <h4>${text}
-                        <button>X</button>
+                        <button class="ff">X</button>
                     </h4>
                         
                     </div>
@@ -46,7 +47,7 @@
             // si no hay nombre no hagas nada
             if (taskText === '') {
                 console.error('no valid task name');
-                return;
+                alert("Añadir tarea vacía?");
             }
 
             // crear un node html
@@ -101,8 +102,8 @@
 
 <body>
     <header class="addList">
-        <input type="text" placeholder="añadir mi lista">
-        <button>agregar nueva lista</button>
+        <input type="text" placeholder="Add my list">
+        <button>New list</button>
     </header>
     <section>
         <div class="lists">
