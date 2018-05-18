@@ -18,7 +18,7 @@
     let createTaskItemTemplate = (text) =>
         `
             <div class="taskItem">
-                <button class"ff2">X</button>
+                <button class="ff2">X</button>
                 <div class="taskText">
                     ${text}
                 </div>
