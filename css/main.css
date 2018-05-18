@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-image: url("/Users/Fanny/Documents/dev/miOrganizador/img/fondo-negro.gif");
+    background-image: url("../img/fondo-negro.gif");
     background-repeat: no-repeat;
     background-size: 1290px 870px;
 
